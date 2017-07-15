@@ -19,5 +19,11 @@
   "dependencies": {
     "express": "^4.15.3",
     "vue": "^2.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.4.2",
+    "nodemon": "^1.11.0"
   }
 }
