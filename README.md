@@ -2,7 +2,9 @@
 List making app for quails
 
 # Start Server
-`npm start`
+`mongod` -> Separate tab
+
+`npm start` -> Starts dev server at `localhost:3000`
 
 # Run Tests
 `npm test`
@@ -10,11 +12,12 @@ List making app for quails
 # File Organization
 
 ```
-components/
-store/
-controllers/
-models/
-public/
+server/
+  controllers/
+  models/
+client/
+  public/
+  components/
 tests/
   client/
   server/
