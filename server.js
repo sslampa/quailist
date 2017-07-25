@@ -6,13 +6,12 @@ const bodyParser = require('body-parser')
 const port = process.env.PORT || 3000
 
 const Test = require('./server/models/test')
-
 const test = require('./server/controllers/test')
 
 mongoose.Promise = global.Promise
 mongoose.connect('mongodb://localhost/quailist-development', { 
-    useMongoClient: true 
-  })
+  useMongoClient: true 
+})
   .then(() => console.log('Connection Successful'))
   .catch((err) => console.error(err))
 
